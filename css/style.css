@@ -1,0 +1,130 @@
+/*******************************************/
+/* SETUP
+/*******************************************/
+
+
+@font-face {
+   font-family: 'oswald';
+   src: url('');
+}
+
+/* Box Model Hack */
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body{
+  background-image: url("../img/homepageimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  background-position-y: 40px;
+}
+
+/*******************************************/
+/* BASE STYLES
+/*******************************************/
+
+/*******************************************/
+/* LAYOUT
+/*******************************************/
+
+.kitLogoWrap {
+  /* border: 2em solid black; */
+  height: 100px;
+  /* width: 261px; */
+  margin: auto;
+  color: rgb(255 255 255);
+  font-size: 4em;
+  /* bottom: auto; */
+  left: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 18.18182em;
+}
+
+
+
+/*  */
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20;
+  background: rgb(33 33 33);
+ 
+  /* background-color: transparent; */
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+    display: block;
+    width: 2em;
+  
+    
+}
+
+nav {
+  text-align: center;
+}
+ul{
+  margin-top: 100px;
+}
+
+li {
+  list-style: none;
+  line-height: 80px;
+  font-size: 30px;
+  font: bold;
+  color: rgb(33 33 33);
+
+}
+
+/*******************************************/
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*******************************************/
+/* MEDIA QUERIES
+/*******************************************/
+
+/*
+ ##Device = Desktops
+ ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+}
+
+/*
+ ##Device = Laptops, Desktops
+ ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/*
+ ##Device = Tablets, Ipads (portrait)
+ ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/*
+ ##Device = Tablets, Ipads (landscape)
+ ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+ ##Device = Most of the Smartphones Mobiles (Portrait)
+ ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+}
