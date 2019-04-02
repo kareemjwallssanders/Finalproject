@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    }
+    
+    
+    /* Box Model Hack*/
+    
+    * .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    }
+    
+    body{
+        background: black;
+        padding: 0%;
+        margin: 0%;
+    
+    }
+    
+    .bigWrap{
+        background: white;
+        height: 300vh;
+        width:  100vw;
+        margin: 20px 20px 20px 20px;
+        position: center;
+    } 
+    
+    header{
+    width: 100vw;
+    height: 9vh;
+    clear: both;
+    }
+    
+    header section{
+    float: left;
+    width: 33.33vw;
+    height: 9vh;
+    }
+    
+    header .red{
+    background: rgb(173, 56, 58);
+    }
+    
+    header .yellow{
+    background: rgb(255, 199, 76);
+    }
+    
+    header .blue{
+    background: rgb(46, 103, 182);
+    }
+    
+    .multiImgtop{
+        height: 55vh;
+        width: 100vw;
+        padding: 20px;
+    }
+    
+    .multiImgtop section{
+        height: 45vh;
+        width: 16vw;
+        border: 2px solid black;
+        float: left;
+    }
+    
+    .hero{
+        background-image: url("");
+        
+        height: 100vh;
+        width: 96.6vw;
+        border: 2px solid black;
+        margin: 0px 20px 0px 20px;
+    }  
+    
+    .companyImgText{
+        height: 70vh;
+        width: 96.6vw;
+        border: 2px solid blue;
+        margin: 0px 20px 0px 20px;
+    }
+    
+    
+    
+    .coImg{
+        height: 70vh;
+        width: 48vw;
+        border: 2px solid red;
+        float: left;
+    
+    }
+    
+    .coText{
+        height: 70vh;
+        width: 48vw;
+        border: 2px solid yellow;
+        float: left;
+    
+    }
+    
+    footer{
+        clear: both;
+        height: 60vh;
+        width: 96.6vw;
+        border: 2px solid green;
+        margin: 0px 20px 0px 20px;
+    }
+    
+    .whyImgTextwrapper{
+        height: 60vh;
+        width: 96.6vw;
+        border: 2px solid yellow;
+        
+    }
+    
+    .whyText{
+        height: 60vh;
+        width: 48vw;
+        border: 2px solid purple;
+        float: left;
+    }
+    
+    /* .whyTextTop{
+        height: 30vh;
+        width: 48vw;
+        border: 2px solid red;
+    } */
+    
+    .whyTextBtm{
+        height: 30vh;
+        width: 48vw;
+        border: 4px solid black;
+    }
+    
+    
+    
+    .whyTextmain{
+        height: 60vh;
+        width: 26vw;
+        border: 2px solid red;
+        float: left;
+    }
+    
+    .whyImg{
+        height: 60vh;
+        width: 22vw;
+        border: 2px solid blue;
+        float: right;
+    }
+    .whyImgTop{
+        height: 30;
+        width: 22ww;
+        border: 2px solid red;
+
+    
+    }
+    
+    .whyImgBtm{
+        height: 30;
+        width: 22ww;
+        border: 2px solid
+
+    
+    }
+    
+    
+    
